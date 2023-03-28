@@ -159,6 +159,7 @@ button.selected,
 .button-save {
   background-color: #0a8143;
   float: right;
+  margin-right: 90%;
 
 
 }
@@ -172,9 +173,9 @@ button.selected,
 }
 
 .button-container {
-  display: flex;
+  display: flex; 
   justify-content: space-between;
-  margin-top: 20px;
+   margin-top: 10px;
 }
 
 .button-clear {
@@ -186,23 +187,4 @@ button.selected,
 }
 
 
-.signature-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.button-container {
-  display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
-}
-
-.button-clear {
-  margin-right: 10px;
-}
-
-.button-save {
-  margin-left: 10px;
-}
 
